@@ -78,7 +78,7 @@ def add_new_keys(path_dict_main, path_dict_user, path_dict_new):
 
 
 
-    dict_user += dict_user + "\n\n" + new_keys
+    dict_user += "\n\n" + new_keys
     dict_user = dict_user.strip().replace("\n\n\n", "\n\n")
 
     os.remove(path_dict_user)
